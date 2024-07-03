@@ -1,4 +1,4 @@
-function [x_reconstructed, o_reconstructed] = denoising_sparse(beta, y, max_iter, g, rho, alpha, tol, dim)
+function [x_reconstructed, o_reconstructed] = OutlierRemoval(beta, y, max_iter, g, rho, alpha, tol)
 
     % Flatten the input data
     original_size = size(y);
